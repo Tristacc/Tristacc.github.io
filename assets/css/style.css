@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(36, 41, 46, 0.9);
+  background: rgba(52, 110, 168, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 14px;
-  color: #3b434a;
+  color: #1c588d;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #ffb727;
@@ -266,13 +266,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") center no-repeat;
+  background: url("../img/pg.png") center no-repeat;
   background-size: cover;
   position: relative;
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.15);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -292,18 +292,26 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
+  margin: 0 0 8px 0;
+  font-size: 100px;
   font-family: "Satisfy", serif;
   color: #fff;
+}
+
+#hero #trista {
+  font-size:90px;
+  color:#ffb727;
+  text-shadow: 2px 2px gray;
 }
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 20px;
+  width: 600px;
+  /* font-weight: 200px; */
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  text-align: center;
 }
 #hero .btn-scroll {
   transition: 0.4s;
@@ -558,6 +566,20 @@ section {
   background-color: #ffb727;
 }
 
+#pdf-button{
+  left:100px;
+  width:500px;
+  height:50px;
+  background-color: white; 
+  color:black;
+  border: 2px solid #ffb727;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#pdf-button:hover{
+  background-color: #ffb727;
+  color:white
+}
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
@@ -566,29 +588,45 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #3b434a;
+  color: #06080b;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #82909c;
+  border-left: 2px solid #ffb727;
   position: relative;
 }
 .resume .resume-item h4 {
+  position: absolute;
+  top: 25px;
+  left:130px;
   line-height: 18px;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffb727;
+  color: #d27d15;
   margin-bottom: 10px;
+  display: inline;
 }
 .resume .resume-item h5 {
+  position:absolute;
+  top:55px;
+  left:130px;
   font-size: 16px;
   background: #eef0f2;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+
+.resume-item img{
+  box-align:left;
+  width:100px;
+  height:100px;
+  
+
 }
 .resume .resume-item ul {
   padding-left: 20px;
@@ -1140,7 +1178,7 @@ section {
   position: relative;
 }
 #footer h3 {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 700;
   color: #fff;
   position: relative;
@@ -1157,18 +1195,21 @@ section {
 #footer .social-links {
   margin: 0 0 40px 0;
 }
+#footer a{
+  font-size: 20px;
+}
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 80px;
   display: inline-block;
   background: #ffb727;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 20px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 100px;
+  height: 100px;
   transition: 0.3s;
 }
 #footer .social-links a:hover {
