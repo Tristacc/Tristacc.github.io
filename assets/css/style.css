@@ -961,7 +961,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-img {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
@@ -971,10 +971,9 @@ section {
 .portfolio .portfolio-item .portfolio-info {
   opacity: 1;
   position: absolute;
-  left: 15px;
+  left: 12px;
   bottom: 0;
-
-  right: 15px;
+  right: 12px;
   transition: all 0.3s;
   background: rgba(55, 81, 126, 0.8);
   padding: 10px 15px;
@@ -1020,6 +1019,11 @@ section {
 /* .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 } */
+
+.portfolio-item {
+  width: 500px;
+  height: 300px;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details

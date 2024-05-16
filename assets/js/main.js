@@ -218,8 +218,9 @@
     // check if the protfoliocontainer exist
     if (portfolioContainer) {
       // initialize the isotope library on container
+      // use filter to set the default filter condition
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: ".portfolio-item ",
+        itemSelector: ".portfolio-item, .portfolio-category ",
         layoutMode: "fitRows",
         filter: ".filter-all",
       });
