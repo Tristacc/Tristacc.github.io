@@ -222,7 +222,7 @@
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: ".portfolio-item, .portfolio-category ",
         layoutMode: "fitRows",
-        filter: ".filter-all",
+        filter: ".filter-recent",
       });
 
       // This selects all the filter buttons (which are list items)
