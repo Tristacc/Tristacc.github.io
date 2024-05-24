@@ -382,6 +382,11 @@ h6 {
   background: #05080c;
 }
 
+#title p {
+  font-size: 20px;
+  color: #D882B7;
+}
+
 #title .container {
   padding-top: 72px;
 }
@@ -554,32 +559,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients {
-  padding: 12px 0;
-  text-align: center;
-}
-
-.clients img {
-  max-width: 45%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-  filter: grayscale(100);
-}
-
-.clients img:hover {
-  filter: none;
-  transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-  .clients img {
-    max-width: 40%;
-  }
-}
 
 /*--------------------------------------------------------------
 # About Us
@@ -587,6 +566,11 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
+}
+
+.about .content .profileImg img {
+  height: 300px;
+  width: auto;
 }
 
 .about .content ul {
@@ -597,6 +581,7 @@ section {
 .about .content ul li {
   padding-left: 28px;
   position: relative;
+  font-size: 20px;
 }
 
 .about .content ul li+li {
@@ -606,8 +591,8 @@ section {
 .about .content ul i {
   position: absolute;
   left: 0;
-  top: 2px;
-  font-size: 20px;
+  top: 41px;
+  font-size: 34px;
   color: #D882B7;
   line-height: 1;
 }
@@ -637,6 +622,48 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.about .content .education ul li img {
+  width: 52px;
+  height: 52px;
+  margin-right: 5px;
+
+}
+
+#icon-like {
+  margin-left: 11rem;
+}
+
+#icon-like2 {
+  margin-left: 20rem;
+}
+
+#icon-like3 {
+  margin-left: 35rem;
+}
+
+.about .content .hobbies {
+  display: flex;
+  gap: 20px;
+  /* Adjust the gap between hobbies as needed */
+  flex-wrap: wrap;
+  padding-top: 20px;
+  /* Add some spacing from the education section */
+}
+
+.about .content .hobbies li {
+  list-style: none;
+  font-size: 20px;
+}
+
+/* .about .container .hobbies i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #D882B7;
+  line-height: 1;
+} */
 
 /*--------------------------------------------------------------
 # Why Us
