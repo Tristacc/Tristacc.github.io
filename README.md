@@ -1,0 +1,11 @@
+# <a href="https://tristacc.github.io/" target="_blank">My Personal Website</a>
+
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://tristacc.github.io/)
+[![Author](https://img.shields.io/badge/Author-Trista%20Lu%20-blue.svg)](https://www.linkedin.com/in/trista-lu-704665181/)
+![Latest Release](https://img.shields.io/badge/Latest%20Release-20%20May%202024-yellow.svg)
+
+This website serves as an online résumé and displays my web presence, story, work experience, education, projects, and contact information. It was created using VanilaJS, Bootstrap, and CSS.
+
+![Personal Résume Website](https://raw.githubusercontent.com/AVS1508/AVS1508.github.io/main/website-display.webp)
+
+Please hit me up at [tristalu@brandies.edu](mailto:tristalu@brandies.edu) if you have any feedback or ideas for the website. Leave a :star: &nbsp;if you like it!
