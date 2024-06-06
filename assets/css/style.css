@@ -466,6 +466,10 @@ h6 {
   #title .title-img img {
     width: 50%;
   }
+
+  #hashtag i {
+    color: white;
+  }
 }
 
 @media (max-width: 768px) {
@@ -480,8 +484,16 @@ h6 {
     margin-bottom: 30px;
   }
 
+  #title p {
+    font-size: 15px;
+  }
+
   #title .title-img img {
     width: 70%;
+  }
+
+  #hashtag i {
+    color: white;
   }
 }
 
@@ -493,6 +505,14 @@ h6 {
   #title .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
+  }
+
+  #title p {
+    font-size: 15px;
+  }
+
+  #hashtag i {
+    color: white;
   }
 }
 
