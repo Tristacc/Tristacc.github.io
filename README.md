@@ -8,4 +8,4 @@ This website serves as an online résumé and displays my web presence, story, w
 
 ![Personal Résume Website](https://github.com/Tristacc/Tristacc.github.io/blob/main/assets/img/web.png?raw=true)
 
-Please hit me up at [tristalu@brandeis.edu](mailto:tristalu@brandeis.edu) if you have any feedback or ideas for the website. Leave a :star: &nbsp;if you like it!
+Please hit me up at [itstrista.lu@gmail.com](itstrista.lu@gmail.com) if you have any feedback or ideas for the website. Leave a :star: &nbsp;if you like it!
